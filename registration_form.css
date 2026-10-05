@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(119, 107, 107);
+    
+    
+}
+
+.information {
+    text-align: center;
+    border: solid black;
+    max-width: 32rem;
+    height: 600px;
+    width: 95%;
+    max-width: 400px;
+    margin: 5% auto;  
+    border-radius: 20px;
+    background-color: burlywood;
+    font-size: 1.8rem;
+}
+input[type="text"] {
+  width: 90%;
+  font-size: 21.5px;
+  border-radius: 16px;
+  border: rgb(197, 133, 48);
+  padding: 10px;
+}
+.names {
+    border: solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 2%;
+}
+.names:hover{
+    transition: 0.5s;
+    transform: scale(1.02)
+}
+
+#submit,#reset{
+    font-size: 20px;
+    color: black;
+}
+
+.paragraph {
+    border: solid lightgreen;
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin: 4% 6%;
+    border: auto;
+}  
+a {
+    text-decoration:none;
+}
